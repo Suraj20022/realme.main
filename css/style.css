@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 63.62%;
+}
+
+/*============================= HEADER STYLE ================================*/
+    header{
+    background-color:#f9f9f9;
+    padding: 25px;
+    }
+
+    nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    }
+
+    nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    }
+
+    nav ul li a{
+    text-decoration: none;
+    color: #000;
+    }
+
+    .checkbtn{
+        font-size: 20px;
+        float: left;
+        line-height: 30px;
+        cursor: pointer;
+        display:none;
+    }
+    #check{
+        display:none;
+    }
+/*=============================
+ HEADER STYLE END================================*/
+
+
+ /* ====================================BANNER SECTION========================================= */
+ .banner-img img{
+    width: 100%;
+    background-size: cover;
+ }
+
+ /* ====================================
+ BANNER SECTION END========================================= */
+
+
+ /* ====================================STIKER SECTION START========================================= */
+
+.diwali-gift{
+    width: 100%;
+    display: flex;
+}
+
+.lucky-draw{
+    display: flex;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.lucky-draw img{
+    width: 80%;
+}
+
+ /* ====================================
+ STIKER SECTION END========================================= */
+
+
+ /* ====================================REALME-STORAGE SECTION START========================================= */
+ .realme-storage{
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 50px;
+    position:absolute;
+ }
+
+ .super-prising{
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+ }
+
+.responsiv-realme{
+    display: flex;
+}
+
+.realme-product{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 0.8rem;
+}
+
+.responsiv-realme h6{
+    font-size: 1rem;
+}
+
+.responsiv-realme{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.responsiv-realme p{
+    color: tomato;
+}
+
+.responsiv-realme p span{
+    color:gray;
+}
+
+.realme-product img{
+    width: 80%;
+}
+
+ /* ====================================
+ REALME-STORAGE SECTION START========================================= */
+
+ /* ====================================RECOMMENDED-PHONE SECTION START========================================= */
+ .Recommended-Phones{
+    width: 90%;
+    margin: 30px auto;
+ }
+ .Recommended-Phones h1{
+    font-size: 2rem;
+    padding: 20px;
+ }
+ 
+ .phone-block{
+    display: flex;
+    width: 100%;
+    padding: 0px 20px; 
+ }
+ .phone-block img{
+    width: 96%;
+    border-radius: 20px;
+ }
+ .responsive-wrapper img{
+    width: 100%;
+    padding: 15px 0 0 0;
+    margin-top: 40px;
+ }
+
+ .realmeC30{
+    background-color: white;
+    margin: 0px 5px;
+    border-radius: 20px;
+    text-align: center;
+ }
+ .responsive-wrapper{
+    display: flex;
+    width: 100%;
+ }
+
+ .responsive-wrapper h6{
+    font-size: 1rem;
+ }
+
+ .responsive-wrapper p{
+    font-size: 0.9rem;
+    color: gray;
+ }
+ .responsive-wrapper span{
+    color: tomato;
+ }
+ .laptop-size{
+    display: flex;
+ }
+
+ /* ====================================
+ RECOMMENDED-PHONE SECTION END========================================= */
+
+ .realme9-5G{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 10px;
+    padding: 30px 5px;
+    text-align: center;
+    font-size: 1rem;
+ }
+
+ .realme9-5G h6{
+    font-size: 1rem;
+ }
+
+ .realme9-5G p{
+    color:gray;
+ }
+ .realme9-5G span{
+    color: tomato;
+ }
+
+
+
+ /* ========================
+ New Arrivals SECTION start
+=========================== */
+
+.New-Arrivals{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.gt-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.realme-Gt img{
+    width: 50%;
+}
+.realme-Gt{
+    background-color: white;
+    width: 49%;
+    border-radius: 10px;
+}
+
+.neyo-para{
+    font-size: 1.3rem;
+} 
+.speed{
+    width: 100%;
+    font-size: 1rem;
+    margin: 60px 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+ /* ========================
+ New Arrivals SECTION end
+=========================== */
+
+ /* ========================
+                Hottest-Audios SECTION START
+
+                =========================== */
+                
+                .Hottest-Audios{
+                    margin-top: 50px;
+                }
+                .Hottest-Audios h1{
+                    font-size: 2rem;
+                    padding: 20px;
+                }
+                .air-buds{
+                    width: 100%;
+                    display: flex;
+                }
+
+                .titainium{
+                    width: 40%;
+                }
+
+                .tripple{
+                    width: 100%;
+                }
+                .tripple img{
+                    width: 100%;
+                    border-radius: 15px;
+                }
+              
+                .bass{
+                width: 60%;
+                }
+                .titainium-bass{
+                    background-color: white;
+                    margin:0px 10px;
+                    text-align: center;
+                    border-radius: 15px;
+                }
+
+                .titainium-bass h6{
+                    font-size: 1rem;
+                    padding: 5px;
+                }
+                .titainium-bass p{
+                    font-size: 1.2rem;
+                    color: tomato;
+                }
+                .titainium-bass p del{
+                    color: gray;
+                }
+                .titainium-bass img{
+                    width: 100%;
+                }
+
+/* ========================
+   Hottest-Audios SECTION end
+=========================== */
+
+
+/* ========================
+   Discover SECTION start
+=========================== */
+.Discover{
+    width: 90%;
+    margin: 50px auto;
+}
+
+ .ready img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.adjust{
+    margin: 10px 10px;
+}
+.ready{
+    display: flex;
+}
+/* ========================
+   Discover SECTION end
+=========================== */
+
+
+
+
+/* ========================
+   about-realme SECTION start
+=========================== */
+            .new-speed{
+                width: 100%;
+                display: flex;
+            }
+
+            .new-speeds{
+                background-image: url(../image/black-bg.webp);
+                background-size: cover;
+                width: 30%;
+                height: 350px;
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .new-speedss{
+                background-image: url(../image/black-side.webp);
+                width: 70%;
+                background-position: center;
+
+            }
+
+            .about-realme{
+                color: white;
+                margin: 40px 0 0 20px;
+                font-size: 1.2rem;
+            }
+            .btn-more{
+                margin-top: 120px;
+            }
+
+            .btn-more::after{
+                content: '';
+                position: absolute;
+                right: 4px;
+                top: 6px;
+                width: 6px;
+                height: 6px;
+                border: 2px solid #000;
+                border-width: 2px 2px 0 0;
+                transform: rotate(45deg);
+            }
+
+/* ========================
+   about-realme SECTION start
+=========================== */
+
+
+
+
+
+/* ========================
+   footer SECTION start
+=========================== */
+.footer{
+    width: 100%;
+    margin: 40px auto;
+}
+
+.footer-add{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.Recommended a{
+    color:black;
+    line-height: 30px;
+}
+
+.Including-Holidays button{
+    font-size: 0.9rem;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.Including-Holidays button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.6s;
+}
+.Including-Holidays{
+    text-align: center;
+}
+
+.chat{
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.chat-links{
+    font-size: 1.5rem;
+}
+.chat-links a i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px ;
+    margin: 10px;
+}
+
+.chat-links a i:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.6s;
+}
+
+/* ========================
+   footer SECTION start
+=========================== */
+
+
+
+                 /* ========================meadia start=========================== */
+
+/* ========================
+mibile divice
+=========================== */
+
+@media (max-width:370px) {
+    .footer-add{
+        width: 95%;
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+@media (max-width:500px) {
+    .lucky-draw{
+        display: block;
+        margin: 0 auto;
+    }
+
+.lucky-draw img{
+    width: 100%;
+}
+
+.responsiv-realme{
+    display: block;
+}
+
+.ready{
+    display: block;
+}
+}
+
+
+        
+
+    @media (max-width:768px) {
+        .diwali-gift{
+            width: 100%;
+            display: block;
+        }
+        
+        .super-prising{
+            width: 95%;
+            display: block;
+            margin: 0px auto;
+        }
+
+        .realme-product{
+            margin: 50px 0px 0px 0px;
+        }
+
+        .phone-block{
+            display: block;
+        }
+        .responsive-wrapper{
+            display: block;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .phone-block img{
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .realmeC30{
+            margin-top: 20px;
+        }
+
+        .gt-flex{
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .realme-Gt img{
+            width: 100%;
+        }
+        .realme-Gt{
+            width: 100%;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .air-buds{
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .titainium-bass{
+            margin:20px 10px;
+        }
+
+        .titainium{
+            width: 100%;
+        }
+        .titainium-bass img{
+            width: 80%;
+        }
+
+        .new-speed{
+            width: 100%;
+            display: block;
+        }
+
+        .new-speeds{
+            width: 95%;
+            margin: auto;
+        }
+        
+        .new-speedss{
+            width: 95%;                    
+        }
+        .about-realme{
+            margin-top: 50px;
+        }
+        .footer-res{
+            display: block;
+        }
+    
+        .footer-add{
+            width: 100%;
+            padding: 10px 30px;
+        }
+
+    
+    }
+
+
+
+        @media (max-width:1050px) {
+            nav{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 15px;
+            }
+            .checkbtn{
+                display: block;
+            }
+            nav ul{
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background:white;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+                flex-direction: column;
+                padding: 20px;
+            }
+            nav ul li{
+                display: block;
+                line-height: 50px;
+            }
+            nav ul li a{
+                font-size: 20px;
+            }
+            a:hover{
+                background: none;
+                color: #0082e6;
+            }
+            #check:checked ~ ul{
+                left: 0;
+            }
+            
+            
+        }
+                
+/* ========================
+      meadia start
+=========================== */
+
+
